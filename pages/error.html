@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--#region Head -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Style.css-->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <!-- Style.css-->
+    <link rel="stylesheet" href="../assets/css/sidebar.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <title>Acronym Search</title>
+  </head>
+  <!--#endregion /Head-->
+
+  <body>
+    <!--#region Navigation, top -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-first shadow sticky-top fixed-top"
+    >
+      <button class="btn nav-btn" id="menu-toggle">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+
+      <!--#region inactive -->
+      <!--<button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.teamdefence.info/">TDI</a>
+              </li>
+            </ul>
+          </div>-->
+      <!--#endregion /inactive -->
+    </nav>
+    <!--#endregion /Navigation, top -->
+
+    <div class="d-flex" id="wrapper">
+      <!--#region Navigation, side -->
+      <div class="bg-light shadow-lg" id="sidebar-wrapper">
+        <div class="sidebar-heading">Navigation</div>
+        <div class="list-group list-group-flush">
+          <a href="/" class="list-group-item list-group-item-action bg-light">
+            <i class="fas fa-home mr-4"></i>
+            Home
+          </a>
+          <a
+            href="about.html"
+            class="list-group-item list-group-item-action bg-light"
+          >
+            <i class="fas fa-info-circle mr-4"></i>
+            About
+          </a>
+          <a
+            href="contact.html"
+            class="list-group-item list-group-item-action bg-light"
+          >
+            <i class="fas fa-envelope mr-4"></i>
+            Contact
+          </a>
+          <a
+            href="sponsors.html"
+            class="list-group-item list-group-item-action bg-light"
+          >
+            <i class="fas fa-star-of-life mr-4"></i>
+            Sponsors
+          </a>
+        </div>
+      </div>
+      <!--#endregion /Navigation, side -->
+
+      <!--#region Page content -->
+      <div id="page-content-wrapper">
+        <!--#region Actual content -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <div class="pt-8 text-center text-fluid">
+                <h1 class="second-title">Error!</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--#endregion /Actual content-->
+      </div>
+      <!--#endregion /Page content -->
+    </div>
+
+    <!--#region Scripts -->
+    <!-- Personal.js -->
+    <script src="../assets/js/app.js"></script>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper.js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap.js-->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/78b1d29e85.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--#region Navigation, function -->
+    <script>
+      $(function() {
+        $("#menu-toggle").click(function(e) {
+          e.preventDefault();
+          $("#wrapper").toggleClass("toggled");
+        });
+
+        $(window).resize(function(e) {
+          if ($(window).width() <= 768) {
+            $("#wrapper").removeClass("toggled");
+          } else {
+            $("#wrapper").addClass("toggled");
+          }
+        });
+      });
+    </script>
+    <!--#endregion /Navigation, function-->
+    <!--#endregion / Scripts-->
+  </body>
+</html>

@@ -1,0 +1,96 @@
+/*#region Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*#endregion /Reset */
+
+/*#region Body */
+body {
+  /* Location of the image */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.95)
+    ),
+    url(../img/wallpaper-3.jpg);
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed while the background image is loading */
+  background-color: #464646;
+}
+/*#endregion /Body */
+
+/*#region Global colors */
+:root {
+  --first: #23222f;
+  --second: #2a2939;
+  --third: #adb2bf;
+}
+/*#endregion /Global colors */
+
+/*#region Color classes */
+.bg-first {
+  background-color: var(--first) !important;
+}
+
+.bg-second {
+  background-color: var(--second) !important;
+}
+
+.bg-third {
+  background-color: var(--third) !important;
+}
+/*#endregion /Color classes */
+
+/*#region Buttons */
+.nav-btn {
+  background-color: none !important;
+  color: #fff !important;
+}
+/*#endregion /Buttons */
+
+/*#region Home page */
+.hero-title {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.second-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.hero-lead {
+  font-size: 1.6rem;
+}
+
+.hero-logo {
+  width: 160px;
+}
+
+.pt-8 {
+  padding-top: 2rem !important;
+}
+/*#endregion /Home page */
+
+/*#region Sponsors */
+.sponsor-logo {
+  width: 45%;
+}
+/*#endregion /Sponsors */
+
+/*#region Media queries */
+/*#endregion /Media queries */

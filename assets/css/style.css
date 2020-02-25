@@ -15,11 +15,7 @@ body {
       rgba(255, 255, 255, 0.95)
     ),
     url(../img/wallpaper-3.jpg);*/
-  background-color: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.75),
-    rgba(255, 255, 255, 0.95)
-  );
+  background-color: #fff;
 
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -32,9 +28,6 @@ body {
 
   /* This is what makes the background image rescale based on the container's size */
   background-size: cover;
-
-  /* Set a background color that will be displayed while the background image is loading */
-  background-color: #464646;
 }
 /*#endregion /Body */
 
@@ -58,15 +51,15 @@ body {
 
 /*#region Color classes */
 .bg-first {
-  background-color: var(--first) !important;
+  background-color: #23222f !important;
 }
 
 .bg-second {
-  background-color: var(--second) !important;
+  background-color: #2a2939 !important;
 }
 
 .bg-third {
-  background-color: var(--third) !important;
+  background-color: #adb2bf !important;
 }
 /*#endregion /Color classes */
 
@@ -91,13 +84,13 @@ body {
 
 /*#region Buttons */
 .nav-btn {
-  background-color: none !important;
+  background-color: transparent !important;
   color: #fff !important;
 }
 
 .btn-success {
   background-color: #f1f1f1 !important;
-  border-color: var(--third) !important;
+  border-color: #adb2bf !important;
   color: #000 !important;
 }
 
@@ -106,8 +99,8 @@ body {
 }
 
 .btn-danger {
-  background-color: var(--first) !important;
-  border-color: var(--third) !important;
+  background-color: #23222f !important;
+  border-color: #adb2bf !important;
   color: #fff !important;
 }
 

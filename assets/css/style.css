@@ -9,12 +9,17 @@
 /*#region Body */
 body {
   /* Location of the image */
-  background-image: linear-gradient(
+  /*background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.75),
       rgba(255, 255, 255, 0.95)
     ),
-    url(../img/wallpaper-3.jpg);
+    url(../img/wallpaper-3.jpg);*/
+  background-color: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0.95)
+  );
 
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -41,6 +46,16 @@ body {
 }
 /*#endregion /Global colors */
 
+/*#region Global classes */
+.pt-8 {
+  padding-top: 2rem !important;
+}
+
+.pt-20 {
+  padding-top: 14rem !important;
+}
+/*#endregion /Global classes */
+
 /*#region Color classes */
 .bg-first {
   background-color: var(--first) !important;
@@ -55,10 +70,53 @@ body {
 }
 /*#endregion /Color classes */
 
+/*#region Navigation */
+.navbar-text {
+  color: #fff !important;
+  font-size: 1.2rem !important;
+  -webkit-user-select: none !important; /* Safari */
+  -moz-user-select: none !important; /* Firefox */
+  -ms-user-select: none !important; /* IE10+/Edge */
+  user-select: none !important; /* Standard */
+}
+
+.sidebar-heading {
+  -webkit-user-select: none !important; /* Safari */
+  -moz-user-select: none !important; /* Firefox */
+  -ms-user-select: none !important; /* IE10+/Edge */
+  user-select: none !important; /* Standard */
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+/*#endregion /Navigation */
+
 /*#region Buttons */
 .nav-btn {
   background-color: none !important;
   color: #fff !important;
+}
+
+.btn-success {
+  background-color: #f1f1f1 !important;
+  border-color: var(--third) !important;
+  color: #000 !important;
+}
+
+.btn-success:hover {
+  border-color: #d9dadb !important;
+}
+
+.btn-danger {
+  background-color: var(--first) !important;
+  border-color: var(--third) !important;
+  color: #fff !important;
+}
+
+.btn-danger:hover {
+  border-color: #d9dadb !important;
+}
+
+.toggle-handle {
+  border-color: none !important;
 }
 /*#endregion /Buttons */
 
@@ -66,6 +124,10 @@ body {
 .hero-title {
   font-size: 4rem;
   text-transform: uppercase;
+  -webkit-user-select: none !important; /* Safari */
+  -moz-user-select: none !important; /* Firefox */
+  -ms-user-select: none !important; /* IE10+/Edge */
+  user-select: none !important; /* Standard */
 }
 
 .second-title {
@@ -80,11 +142,13 @@ body {
 .hero-logo {
   width: 160px;
 }
-
-.pt-8 {
-  padding-top: 2rem !important;
-}
 /*#endregion /Home page */
+
+/*#region Contact */
+ul {
+  list-style: none;
+}
+/*#endregion /Contact */
 
 /*#region Sponsors */
 .sponsor-logo {

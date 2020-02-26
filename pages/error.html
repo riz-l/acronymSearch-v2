@@ -12,18 +12,24 @@
     <!-- Internet Explorer functionality -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- Style.css-->
-    <link rel="stylesheet" href="../assets/css/style.css" />
-
-    <!-- Style.css-->
-    <link rel="stylesheet" href="../assets/css/sidebar.css" />
-
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
+    />
+
+    <!-- Style.css-->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <!-- Sidebar.css-->
+    <link rel="stylesheet" href="../assets/css/sidebar.css" />
+
+    <!-- Bootstrap Toggler CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css"
+      rel="stylesheet"
     />
 
     <title>Acronym Search</title>
@@ -38,9 +44,9 @@
       <button class="btn nav-btn" id="menu-toggle">
         <i class="fas fa-bars fa-lg"></i>
       </button>
-      <span class="navbar-text text-uppercase ml-auto justify-content-end"
-        >Acronym <span class="font-weight-bold">Search</span></span
-      >
+      <span class="navbar-text text-uppercase ml-auto justify-content-end">
+        Acronym <span class="font-weight-bold">Search</span>
+      </span>
 
       <!--#region inactive -->
       <!--<button
@@ -69,7 +75,9 @@
     <div class="d-flex" id="wrapper">
       <!--#region Navigation, side -->
       <div class="bg-light shadow-lg" id="sidebar-wrapper">
-        <div class="sidebar-heading">Navigation</div>
+        <div class="sidebar-heading text-uppercase">
+          Navigation
+        </div>
         <div class="list-group list-group-flush">
           <a
             href="../index.html"
@@ -99,6 +107,20 @@
             <i class="fas fa-star-of-life mr-4"></i>
             Sponsors
           </a>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center pt-20">
+            <input
+              type="checkbox"
+              checked
+              data-toggle="toggle"
+              data-on="<i class='far fa-moon mx-auto'></i>"
+              data-off="<i class='fas fa-moon mx-auto'></i>"
+              data-onstyle="success"
+              data-offstyle="danger"
+              class="shadow-lg"
+            />
+          </div>
         </div>
       </div>
       <!--#endregion /Navigation, side -->
@@ -141,6 +163,8 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <!-- Bootstrap Toggler.js-->
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/78b1d29e85.js"

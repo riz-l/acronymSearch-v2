@@ -29,6 +29,11 @@ body {
   /* This is what makes the background image rescale based on the container's size */
   background-size: cover;
 }
+
+body,
+html {
+  font-family: "Segoe UI", sans-serif !important;
+}
 /*#endregion /Body */
 
 /*#region Global colors */
@@ -74,11 +79,11 @@ body {
 }
 
 .sidebar-heading {
+  color: rgba(0, 0, 0, 0.5) !important;
   -webkit-user-select: none !important; /* Safari */
   -moz-user-select: none !important; /* Firefox */
   -ms-user-select: none !important; /* IE10+/Edge */
   user-select: none !important; /* Standard */
-  color: rgba(0, 0, 0, 0.5) !important;
 }
 /*#endregion /Navigation */
 

@@ -32,7 +32,7 @@
       rel="stylesheet"
     />
 
-    <title>Acronym Search</title>
+    <title>Error! - Acronym Search</title>
   </head>
   <!--#endregion /Head-->
 
@@ -108,7 +108,8 @@
             Sponsors
           </a>
         </div>
-        <div class="row">
+        <!--#region Light/Dark Mode Switch -->
+        <!--<div class="row">
           <div class="col-lg-12 text-center pt-20">
             <input
               type="checkbox"
@@ -121,7 +122,8 @@
               class="shadow-lg"
             />
           </div>
-        </div>
+        </div>-->
+        <!--#endregion /Light/Dark Mode Switch -->
       </div>
       <!--#endregion /Navigation, side -->
 
@@ -133,6 +135,29 @@
             <div class="col-lg-12 mx-auto">
               <div class="pt-8 text-center text-fluid">
                 <h1 class="second-title">Error!</h1>
+                <div class="pt-8">
+                  <i
+                    class="fas fa-exclamation-triangle big-icon img-fluid text-warning"
+                  ></i>
+                </div>
+                <div class="row pt-8">
+                  <div class="col-lg-12">
+                    <p class="error-text">
+                      Oops! It looks like you've lost internet connection.
+                      Please navigate back to the home page, or establish a
+                      working internet connection.
+                    </p>
+                  </div>
+                </div>
+                <div class="pt-4">
+                  <!-- Refresh Button (Set's the website's history to 0) -->
+                  <a
+                    href="javascript:history.go(0)"
+                    class="btn btn-sponsor btn-lg"
+                  >
+                    Try Again
+                  </a>
+                </div>
               </div>
             </div>
           </div>

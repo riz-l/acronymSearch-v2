@@ -52,6 +52,30 @@ html {
 .pt-20 {
   padding-top: 14rem !important;
 }
+
+.pt-5 {
+  padding-top: 5rem !important;
+}
+
+.pb-5 {
+  padding-bottom: 5rem !important;
+}
+
+.pl-5 {
+  padding-left: 5rem !important;
+}
+
+.pr-5 {
+  padding-right: 5rem !important;
+}
+
+.px-5 {
+  padding: 5rem !important;
+}
+
+.std-text {
+  font-size: 1.1rem !important;
+}
 /*#endregion /Global classes */
 
 /*#region Color classes */
@@ -65,6 +89,30 @@ html {
 
 .bg-third {
   background-color: #adb2bf !important;
+}
+
+.bg-cp {
+  background-color: #22212d !important;
+}
+
+.bg-cp-1 {
+  background-color: #2a2d37 !important;
+}
+
+.bg-cp-2 {
+  background-color: #f5faff !important;
+}
+
+.bg-cp-3 {
+  background-color: #7fb3e1 !important;
+}
+
+.bg-cp-4 {
+  background-color: #dda2f6 !important;
+}
+
+.bg-cp-5 {
+  background-color: #8af1ea !important;
 }
 /*#endregion /Color classes */
 
@@ -116,6 +164,16 @@ html {
 .toggle-handle {
   border-color: none !important;
 }
+
+.btn-sponsor {
+  background-color: #4a2466 !important;
+  color: #f5faff !important;
+}
+
+.btn-sponsor:hover {
+  color: #fff !important;
+  background-color: #3d1e54 !important;
+}
 /*#endregion /Buttons */
 
 /*#region Home page */
@@ -154,44 +212,42 @@ ul {
 }
 /*#endregion /Sponsors */
 
+/*#region Errors */
+.big-icon {
+  font-size: 10rem;
+}
+
+.error-text {
+  font-size: 1.4rem;
+}
+/*#endregion /Errors */
+
 /*#region Media queries */
-html {
+/* html {
   font-size: 0.9rem;
 }
 
-/*@media (min-width: 768px) {
+@media (max-width: 1200px) {
   html {
-    font-size: 1.1rem;
-  }
-  h1 {
-    font-size: 1.3rem;
-  }
-  h2 {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 }
 
-@media (min-width: 991px) {
+@media (max-width: 991px) {
   html {
-    font-size: 1.2rem;
-  }
-  h1 {
-    font-size: 1.5rem;
-  }
-  h2 {
-    font-size: 1.4rem;
+    font-size: 0.9rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 768px) {
   html {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
-  h1 {
-    font-size: 1.7rem;
+}
+
+@media (max-width: 558px) {
+  html {
+    font-size: 0.7rem;
   }
-  h2 {
-    font-size: 1.6rem;
-  }
-}*/
+} */
 /*#endregion /Media queries */

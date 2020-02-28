@@ -223,7 +223,7 @@ ul {
 /*#endregion /Errors */
 
 /*#region Media queries */
-/* html {
+html {
   font-size: 0.9rem;
 }
 
@@ -249,5 +249,5 @@ ul {
   html {
     font-size: 0.7rem;
   }
-} */
+}
 /*#endregion /Media queries */

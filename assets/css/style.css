@@ -114,6 +114,14 @@ html {
 .bg-cp-5 {
   background-color: #8af1ea !important;
 }
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-offwhite {
+  background-color: #f1f1f1 !important;
+}
 /*#endregion /Color classes */
 
 /*#region Navigation */
@@ -197,6 +205,20 @@ html {
 
 .hero-logo {
   width: 160px;
+}
+
+.result-img {
+  color: #f5faff !important;
+  font-size: 2rem;
+  position: relative;
+}
+.i-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 30%;
+  margin: -15% 0 0 -16%;
 }
 /*#endregion /Home page */
 

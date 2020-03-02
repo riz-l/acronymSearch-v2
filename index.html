@@ -20,16 +20,26 @@
       crossorigin="anonymous"
     />
 
-    <!-- Style.css-->
+    <!-- Style.css -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- Sidebar.css-->
+    <!-- Sidebar.css -->
     <link rel="stylesheet" href="assets/css/sidebar.css" />
+
+    <!-- Debug.css -->
+    <link rel="stylesheet" href="assets/css/-debug.css" />
 
     <!-- Bootstrap Toggler CSS -->
     <link
       href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css"
       rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="assets/img/icons/tdi.ico"
     />
 
     <title>Acronym Search</title>
@@ -46,6 +56,12 @@
       </button>
       <span class="navbar-text text-uppercase ml-auto justify-content-end">
         Acronym <span class="font-weight-bold">Search</span>
+        <img
+              src="assets/img/tdi-logo.png"
+              alt="Team Defence Information Logo"
+              class="img-fluid hero-logo"
+              style="width: 30px"
+            />
       </span>
       <!--#region inactive -->
       <!--<button
@@ -107,7 +123,8 @@
             Sponsors
           </a>
         </div>
-        <div class="row">
+        <!--#region Light/Dark Mode Switch -->
+        <!--<div class="row">
           <div class="col-lg-12 text-center pt-20">
             <input
               type="checkbox"
@@ -120,47 +137,97 @@
               class="shadow-lg"
             />
           </div>
-        </div>
+        </div>-->
+        <!--#endregion /Light/Dark Mode Switch -->
       </div>
       <!--#endregion /Navigation, side -->
 
       <!--#region Page content -->
       <div id="page-content-wrapper">
         <!--#region Actual content -->
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-md-8 mx-auto">
-              <div class="pt-8 text-center text-fluid">
-                <h1 class="hero-title">
-                  Acronym <span class="font-weight-bold">Search</span>
-                </h1>
-                <p class="hero-lead">
-                  Please use the searchbar below to look for acronyms commonly
-                  used throughout the Defence industry
-                </p>
+        <div class="container-white shadow-lg">
+          <div class="pt-8">
+            <div class="row">
+              <!--#region New Title -->
+              <!-- Title -->
+              <div class="col-lg-8 col-md-8 col-sm-12 col-12"></div>
+              <!-- Logo -->
+              <div class="col-lg-4 col-md 4 col-sm-12 col-12"></div>
+              <!--#endregion /New Title -->
+
+              <!--#region Old Title -->
+              <!-- <div class="col-lg-8 col-md-8 mx-auto">
+                <div class="text-center text-fluid">
+                  <h1 class="hero-title">
+                    Acronym <span class="font-weight-bold">Search</span>
+                  </h1>
+                  <p class="hero-lead">
+                    Please use the searchbar below to look for acronyms commonly
+                    used throughout the Defence industry
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="col-lg-4 col-md-4 mx-auto">
-              <div class="pt-8 text-center">
-                <img
-                  src="assets/img/tdi-logo.png"
-                  alt="Team Defence Information Logo"
-                  class="img-fluid hero-logo"
-                />
-              </div>
+              <div class="col-lg-4 col-md-4 mx-auto">
+                <div class="pt-8 text-center">
+                  <img
+                    src="assets/img/tdi-logo.png"
+                    alt="Team Defence Information Logo"
+                    class="img-fluid hero-logo"
+                  />
+                </div>
+              </div> -->
+              <!--#endregion /Old Title -->
             </div>
           </div>
+
+
+
+          <!-- Ji's code -->
+          <section>
+                <h1 class="hero-title text-center">Acronym <span class="font-weight-bold">Search</span></h1>
+
+          </section>
+
+
           <div class="row pt-8">
-            <div class="col-lg-8 mx-auto pt-8">
-              <input
-                type="search"
-                id="search"
-                value=""
-                class="form-control"
-                placeholder="Search..."
+            <!-- <div class="col-lg-1 text-right logo-div">
+              <img
+                src="assets/img/tdi-logo.png"
+                alt="Team Defence Information Logo"
+                class="img-fluid hero-logo"
               />
+            </div> -->
+            <div class="col-lg-11 mx-auto pt-8">
+              <div class="input-group">
+                <input
+                  class="form-control form-control-lg border-secondary py-2"
+                  type="search"
+                  placeholder="Search..."
+                />
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
+
+        <!-- Ji's search result -->
+          <div class="row search-row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-2 search-col-2">
+              <i class="fas fa-align-left"></i>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-9 search-row-9">
+              <div class="card-body search-card-body">
+                <h3>Search Result</h3>
+                <p>What does it mean</p>
+
+              </div>
+            </div>
+          </div>
+
+
         </div>
         <!--#endregion /Actual content-->
       </div>

@@ -300,14 +300,16 @@ html {
 /*#endregion /Media queries */
 
 /*#region Ji's code */
-.container-white {
+/* .container-white {
   background-color: white;
-  margin: 5% 5%;
   border-radius: 25px;
-}
+  height: 90%;
+  padding: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+} */
 
-.purple-fade {
+/* .purple-fade {
   background-image: linear-gradient(to bottom right, #f0e3ff, #3e206d);
-}
-
+} */
 /*#endregion /Ji's code */

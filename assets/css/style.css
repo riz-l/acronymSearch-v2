@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /*#endregion /Reset */
 
 /*#region Body */
@@ -34,6 +35,7 @@ body,
 html {
   font-family: "Segoe UI", sans-serif !important;
 }
+
 /*#endregion /Body */
 
 /*#region Global colors */
@@ -42,6 +44,7 @@ html {
   --second: #2a2939;
   --third: #adb2bf;
 }
+
 /*#endregion /Global colors */
 
 /*#region Global classes */
@@ -76,6 +79,7 @@ html {
 .std-text {
   font-size: 1.1rem !important;
 }
+
 /*#endregion /Global classes */
 
 /*#region Color classes */
@@ -122,25 +126,35 @@ html {
 .bg-offwhite {
   background-color: #f1f1f1 !important;
 }
+
 /*#endregion /Color classes */
 
 /*#region Navigation */
 .navbar-text {
   color: #fff !important;
   font-size: 1.2rem !important;
-  -webkit-user-select: none !important; /* Safari */
-  -moz-user-select: none !important; /* Firefox */
-  -ms-user-select: none !important; /* IE10+/Edge */
-  user-select: none !important; /* Standard */
+  -webkit-user-select: none !important;
+  /* Safari */
+  -moz-user-select: none !important;
+  /* Firefox */
+  -ms-user-select: none !important;
+  /* IE10+/Edge */
+  user-select: none !important;
+  /* Standard */
 }
 
 .sidebar-heading {
   color: rgba(0, 0, 0, 0.5) !important;
-  -webkit-user-select: none !important; /* Safari */
-  -moz-user-select: none !important; /* Firefox */
-  -ms-user-select: none !important; /* IE10+/Edge */
-  user-select: none !important; /* Standard */
+  -webkit-user-select: none !important;
+  /* Safari */
+  -moz-user-select: none !important;
+  /* Firefox */
+  -ms-user-select: none !important;
+  /* IE10+/Edge */
+  user-select: none !important;
+  /* Standard */
 }
+
 /*#endregion /Navigation */
 
 /*#region Buttons */
@@ -182,16 +196,21 @@ html {
   color: #fff !important;
   background-color: #3d1e54 !important;
 }
+
 /*#endregion /Buttons */
 
 /*#region Home page */
 .hero-title {
   font-size: 4rem;
   text-transform: uppercase;
-  -webkit-user-select: none !important; /* Safari */
-  -moz-user-select: none !important; /* Firefox */
-  -ms-user-select: none !important; /* IE10+/Edge */
-  user-select: none !important; /* Standard */
+  -webkit-user-select: none !important;
+  /* Safari */
+  -moz-user-select: none !important;
+  /* Firefox */
+  -ms-user-select: none !important;
+  /* IE10+/Edge */
+  user-select: none !important;
+  /* Standard */
 }
 
 .second-title {
@@ -212,6 +231,7 @@ html {
   font-size: 2rem;
   position: relative;
 }
+
 .i-img {
   position: absolute;
   top: 50%;
@@ -220,18 +240,21 @@ html {
   height: 30%;
   margin: -15% 0 0 -16%;
 }
+
 /*#endregion /Home page */
 
 /*#region Contact */
 ul {
   list-style: none;
 }
+
 /*#endregion /Contact */
 
 /*#region Sponsors */
 .sponsor-logo {
   width: 45%;
 }
+
 /*#endregion /Sponsors */
 
 /*#region Errors */
@@ -242,6 +265,7 @@ ul {
 .error-text {
   font-size: 1.4rem;
 }
+
 /*#endregion /Errors */
 
 /*#region Media queries */
@@ -272,4 +296,18 @@ html {
     font-size: 0.7rem;
   }
 }
+
 /*#endregion /Media queries */
+
+/*#region Ji's code */
+.container-white {
+  background-color: white;
+  margin: 5% 5%;
+  border-radius: 25px;
+}
+
+.purple-fade {
+  background-image: linear-gradient(to bottom right, #f0e3ff, #3e206d);
+}
+
+/*#endregion /Ji's code */

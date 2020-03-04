@@ -2,10 +2,10 @@
 // e18: https://www.youtube.com/watch?v=ChXgikdQJR8
 
 // Static Cache
-const staticCacheName = "site-static-v1";
+const staticCacheName = "site-static-v1.3";
 
 // Dynamic Cache
-const dynamicCache = "site-dynamic-v1";
+const dynamicCache = "site-dynamic-v1.3";
 
 // Cache Assets
 const assets = [

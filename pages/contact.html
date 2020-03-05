@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <!--#region Head -->
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -26,27 +27,47 @@
     <!-- Sidebar.css-->
     <link rel="stylesheet" href="../assets/css/sidebar.css" />
 
-    <!-- Bootstrap Toggler CSS -->
+    <!-- Favicon -->
     <link
-      href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css"
-      rel="stylesheet"
+      rel="shortcut icon"
+      type="image/jpg"
+      href="../assets/img/icons/tdi.ico"
     />
 
-    <title>Acronym Search</title>
+    <!-- Manifest.json -->
+    <link rel="manifest" href="../manifest.json" />
+
+    <!-- Address Bar Theme Colour -->
+    <meta name="theme-color" content="#23222f" />
+
+    <!-- iOS Support -->
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-72x72.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-96x96.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-128x128.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-144x144.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-152x152.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-192x192.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-384x384.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-512x512.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#23222f" />
+
+    <title>Contact - Acronym Search</title>
   </head>
   <!--#endregion /Head-->
 
-  <body>
+  <body class="purple-fade">
     <!--#region Navigation, top -->
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-first shadow sticky-top"
+      class="navbar navbar-expand-lg navbar-light bg-first sticky-top navbar-div"
     >
       <button class="btn nav-btn" id="menu-toggle">
         <i class="fas fa-bars fa-lg"></i>
       </button>
-      <span class="navbar-text text-uppercase ml-auto justify-content-end">
-        Acronym <span class="font-weight-bold">Search</span>
-      </span>
+      <a href="../index.html" class="ml-auto justify-content-end">
+        <span class="navbar-text text-uppercase ml-auto justify-content-end">
+          Acronym <span class="font-weight-bold">Search</span>
+        </span>
+      </a>
 
       <!--#region inactive -->
       <!--<button
@@ -74,41 +95,42 @@
 
     <div class="d-flex" id="wrapper">
       <!--#region Navigation, side -->
-      <div class="bg-light shadow-lg" id="sidebar-wrapper">
+      <div class="bg-first" id="sidebar-wrapper">
         <div class="sidebar-heading text-uppercase">
           Navigation
         </div>
-        <div class="list-group list-group-flush">
+        <div class="list-group list-group-flush sidebar-div">
           <a
             href="../index.html"
-            class="list-group-item list-group-item-action bg-light"
+            class="list-group-item list-group-item-action bg-first sidebar-icons"
           >
             <i class="fas fa-home mr-4"></i>
             Home
           </a>
           <a
             href="about.html"
-            class="list-group-item list-group-item-action bg-light"
+            class="list-group-item list-group-item-action bg-first sidebar-icons"
           >
             <i class="fas fa-info-circle mr-4"></i>
             About
           </a>
           <a
             href="contact.html"
-            class="list-group-item list-group-item-action bg-light"
+            class="list-group-item list-group-item-action bg-first sidebar-icons"
           >
             <i class="fas fa-envelope mr-4"></i>
             Contact
           </a>
           <a
             href="sponsors.html"
-            class="list-group-item list-group-item-action bg-light"
+            class="list-group-item list-group-item-action bg-first sidebar-icons"
           >
             <i class="fas fa-star-of-life mr-4"></i>
             Sponsors
           </a>
         </div>
-        <div class="row">
+        <!--#region Light/Dark Mode Switch -->
+        <!--<div class="row">
           <div class="col-lg-12 text-center pt-20">
             <input
               type="checkbox"
@@ -121,27 +143,28 @@
               class="shadow-lg"
             />
           </div>
-        </div>
+        </div>-->
+        <!--#endregion /Light/Dark Mode Switch -->
       </div>
       <!--#endregion /Navigation, side -->
 
       <!--#region Page content -->
       <div id="page-content-wrapper">
         <!--#region Actual content -->
-        <div class="container">
+        <div class="container container-white shadow-lg">
           <div class="row">
             <div class="col-lg-12 mx-auto">
               <div class="pt-8 text-center text-fluid">
                 <h1 class="second-title">Contact Us</h1>
                 <div class="pt-4 text-left">
-                  <p>
+                  <p class="std-text">
                     If you would like to find out more about Team Defence
                     Information, or would like to get in touch, please contact
                     us using one of the methods below:
                   </p>
                   <hr />
                 </div>
-                <div class="pt-4 text-left">
+                <div class="pt-4 text-left std-text">
                   <p class="font-weight-bold">By Telephone</p>
                   <p>+44 (0)1454 410 550</p>
                   <p class="font-weight-bold">By Fax</p>
@@ -169,8 +192,10 @@
     </div>
 
     <!--#region Scripts -->
-    <!-- Personal.js -->
+    <!-- App.js -->
     <script src="../assets/js/app.js"></script>
+    <!-- UI.js -->
+    <script src="../assets/js/ui.js"></script>
     <!-- jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

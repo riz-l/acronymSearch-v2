@@ -14,53 +14,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Bootstrap CSS -->
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
-    /> -->
+    />
 
-    <!-- Bootstrap CSS (actual) -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Style.css-->
+    <link rel="stylesheet" href="../assets/css/style.css" />
 
-    <!-- Style.css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Sidebar.css-->
+    <link rel="stylesheet" href="../assets/css/sidebar.css" />
 
-    <!-- Sidebar.css -->
-    <link rel="stylesheet" href="assets/css/sidebar.css" />
-
-    <!-- Ji's Font -->
+    <!-- Bootstrap Toggler CSS -->
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto:500|Poppins:600&display=swap"
+      href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css"
       rel="stylesheet"
     />
 
-    <!-- Favicon -->
-    <link
-      rel="shortcut icon"
-      type="image/jpg"
-      href="assets/img/icons/tdi.ico"
-    />
-
     <!-- Manifest.json -->
-    <link rel="manifest" href="manifest.json" />
+    <link rel="manifest" href="../manifest.json" />
 
     <!-- Address Bar Theme Colour -->
     <meta name="theme-color" content="#23222f" />
 
     <!-- iOS Support -->
-    <link rel="apple-touch-icon" href="assets/img/icons/tdi-72x72.png" />
-    <link rel="apple-touch-icon" href="assets/img/icons/tdi-96x96.png" />
-    <link rel="apple-touch-icon" href="assets/img/icons/tdi-128x128.png" />
-    <link rel="apple-touch-icon" href="assets/img/icons/tdi-144x144.png" />
-    <link rel="apple-touch-icon" href="assets/img/icons/tdi-152x152.png" />
-    <link rel="apple-touch-icon" href="assets/img/icons/tdi-192x192.png" />
-    <link rel="apple-touch-icon" href="assets/img/icons/tdi-384x384.png" />
-    <link rel="apple-touch-icon" href="assets/img/icons/tdi-512x512.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-72x72.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-96x96.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-128x128.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-144x144.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-152x152.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-192x192.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-384x384.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-512x512.png" />
     <meta name="apple-mobile-web-app-status-bar" content="#23222f" />
 
-    <title>Acronym Search</title>
+    <title>Error! - Acronym Search</title>
   </head>
   <!--#endregion /Head-->
 
@@ -72,14 +62,12 @@
       <button class="btn nav-btn" id="menu-toggle">
         <i class="fas fa-bars fa-lg"></i>
       </button>
-      <a href="index.html" class="ml-auto justify-content-end">
-        <img
-          src="assets/img/tdi-logo.png"
-          alt="Team Defence Information Logo"
-          class="img-fluid hero-logo"
-          style="width: 30px"
-        />
+      <a href="../index.html" class="ml-auto justify-content-end">
+        <span class="navbar-text text-uppercase ml-auto justify-content-end">
+          Acronym <span class="font-weight-bold">Search</span>
+        </span>
       </a>
+
       <!--#region inactive -->
       <!--<button
             class="navbar-toggler"
@@ -112,100 +100,83 @@
         </div>
         <div class="list-group list-group-flush sidebar-div">
           <a
-            href="index.html"
+            href="../index.html"
             class="list-group-item list-group-item-action bg-first sidebar-icons"
           >
             <i class="fas fa-home mr-4"></i>
             Home
           </a>
           <a
-            href="pages/about.html"
+            href="about.html"
             class="list-group-item list-group-item-action bg-first sidebar-icons"
           >
             <i class="fas fa-info-circle mr-4"></i>
             About
           </a>
           <a
-            href="pages/contact.html"
+            href="contact.html"
             class="list-group-item list-group-item-action bg-first sidebar-icons"
           >
             <i class="fas fa-envelope mr-4"></i>
             Contact
           </a>
           <a
-            href="pages/sponsors.html"
+            href="sponsors.html"
             class="list-group-item list-group-item-action bg-first sidebar-icons"
           >
             <i class="fas fa-star-of-life mr-4"></i>
             Sponsors
           </a>
         </div>
+        <!--#region Light/Dark Mode Switch -->
+        <!--<div class="row">
+          <div class="col-lg-12 text-center pt-20">
+            <input
+              type="checkbox"
+              checked
+              data-toggle="toggle"
+              data-on="<i class='far fa-moon mx-auto'></i>"
+              data-off="<i class='fas fa-moon mx-auto'></i>"
+              data-onstyle="success"
+              data-offstyle="danger"
+              class="shadow-lg"
+            />
+          </div>
+        </div>-->
+        <!--#endregion /Light/Dark Mode Switch -->
       </div>
       <!--#endregion /Navigation, side -->
 
       <!--#region Page content -->
       <div id="page-content-wrapper">
         <!--#region Actual content -->
-        <div class="container-white container shadow-lg">
-          <div class="pt-8">
-            <div class="row">
-              <!--#region New Title -->
-              <!-- Title -->
-              <div class="col-lg-12 text-center">
-                <h1 class="hero-title">
-                  Acronym Search
-                </h1>
-              </div>
-              <!-- Logo -->
-              <!--#endregion /New Title -->
-            </div>
-          </div>
-          <!--#region Search Bar -->
-          <!-- region Ji's code -->
-          <div class="row pt-8">
-            <!-- <div class="col-lg-1 text-right logo-div">
-              <img
-                src="assets/img/tdi-logo.png"
-                alt="Team Defence Information Logo"
-                class="img-fluid hero-logo"
-              />
-            </div> -->
-            <div class="col-lg-11 mx-auto pt-8">
-              <div class="input-group">
-                <input
-                  class="form-control form-control-lg border-secondary py-2 search-bar"
-                  type="search"
-                  placeholder="Search..."
-                />
-                <div class="input-group-append button-div">
-                  <button
-                    class="btn btn-outline-secondary search-icon"
-                    type="button"
+        <div class="container container-white shadow-lg">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <div class="pt-8 text-center text-fluid">
+                <h1 class="second-title">Error!</h1>
+                <div class="pt-8">
+                  <i
+                    class="fas fa-exclamation-triangle big-icon img-fluid text-warning"
+                  ></i>
+                </div>
+                <div class="row pt-8">
+                  <div class="col-lg-12">
+                    <p class="error-text">
+                      Oops! It looks like you've lost internet connection.
+                      Please navigate back to the home page, or establish a
+                      working internet connection.
+                    </p>
+                  </div>
+                </div>
+                <div class="pt-4">
+                  <a class="btn btn-sponsor btn-lg" href="../index.html"
+                    >Go to Home Page</a
                   >
-                    <i class="fa fa-search"></i>
-                  </button>
                 </div>
               </div>
             </div>
           </div>
-
-          <!-- region Ji's search result -->
-          <div class="search-row-bg">
-            <div class="row search-row">
-              <div class="col-lg-2 col-md-2 col-sm-2 col-2 search-col-2">
-                <i class="fas fa-align-left"></i>
-              </div>
-              <div class="col-lg-9 col-md-9 col-sm-9 col-9 search-col-9">
-                <div class="card-body search-card-body">
-                  <h3>Search Result</h3>
-                  <p>What does it mean</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- endregion /Ji's search result -->
-          <!-- endregion /Ji's code -->
-          <!--#endregion /Search Bar-->
         </div>
         <!--#endregion /Actual content-->
       </div>
@@ -214,9 +185,9 @@
 
     <!--#region Scripts -->
     <!-- App.js -->
-    <script src="assets/js/app.js"></script>
+    <script src="../assets/js/app.js"></script>
     <!-- UI.js -->
-    <script src="assets/js/ui.js"></script>
+    <script src="../assets/js/ui.js"></script>
     <!-- jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -230,13 +201,13 @@
       crossorigin="anonymous"
     ></script>
     <!-- Bootstrap.js-->
-    <!-- <script
+    <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
-    ></script> -->
-    <!-- Bootstrap.js (actual) -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    ></script>
+    <!-- Bootstrap Toggler.js-->
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/78b1d29e85.js"

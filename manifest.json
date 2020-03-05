@@ -1,7 +1,7 @@
 {
   "name": "Acronym Search",
   "short_name": "Acronym Search",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#23222f",
   "theme_color": "#23222f",

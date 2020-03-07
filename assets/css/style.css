@@ -301,29 +301,35 @@ html {
 
 /*#region Ji's code */
 .bg-first {
-  background-color: #646A95;
+  background-color: #646a95;
 }
+
 .btn-outline-secondary:hover {
   background-color: #212529 !important;
 }
+
 .btn-sponsor {
   border-radius: 20px;
 }
-.button-div {
-  background-color:
-}
+
 .container-white {
-  background-image: linear-gradient(to bottom,rgb(225,229,241), rgb(250,250,250),rgb(225,229,241));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(225, 229, 241),
+    rgb(250, 250, 250),
+    rgb(225, 229, 241)
+  );
   /* background-image: radial-gradient(circle,rgb(250,250,250),rgb(225,229,241)); */
   /* border-color: rgb(120,74,185,0.8);
   border-width: thick;
   border-style: groove; */
-  margin: 1rem auto;
 }
+
 .fa-bars {
   font-size: 2rem !important;
-  color: #937dbd!important;
+  color: #937dbd !important;
 }
+
 .fa-align-left {
   font-size: 1.5rem;
   color: white;
@@ -333,55 +339,57 @@ html {
   margin: -11% 0 0 -10%;
 }
 
-.hero-logo {
-  /* width: 50px; */
-  /* padding-top: 4%; */
-}
-
 .hero-title {
   color: black;
-  font-family: 'Poppins', sans-serif !important;
-
-  padding-top: 7%;
+  font-family: "Poppins", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  padding-top: 3%;
 }
+
 .input-group {
   margin: 0 auto;
   width: 50%;
 }
+
 .logo-div {
   padding-top: 2%;
   padding-right: 0;
 }
+
 .navbar-div {
   margin: 3rem 2rem;
 }
-.purple-fade {
-  background-image: white);
-}
+
 .search-bar {
   background-color: white;
   border-color: transparent !important;
   border-radius: 20px;
-  box-shadow: 1rem 1rem 7rem 1rem rgb(231,236,250)!important;
+  box-shadow: 1rem 1rem 7rem 1rem rgb(231, 236, 250) !important;
 }
+
 .search-card-body {
   padding-bottom: 0;
 }
+
 .search-col-2 {
   background-color: #3c375c;
   border-radius: 15px;
   position: relative;
 }
+
 .search-col-9 {
   background-color: #fff;
   /* background-color: #F4F5F8; */
   border-radius: 15px;
 }
+
 .search-icon {
   background-color: white;
   border-radius: 20px;
   border-color: transparent !important;
 }
+
 .search-row {
   width: 50%;
   margin: 0 auto;
@@ -392,33 +400,39 @@ html {
   padding-top: 5%;
   padding-bottom: 15%;
 }
+
 .second-title {
   margin-bottom: 2%;
 }
+
 .shadow-lg {
-  box-shadow: 1rem 1rem 7rem 7rem rgb(225,229,241)!important
+  box-shadow: 1rem 1rem 7rem 7rem rgb(225, 229, 241) !important;
 }
+
 .sidebar-div {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 1.25rem;
 }
+
 .sidebar-heading {
   padding: 1rem 3.25rem !important;
 }
+
 .sidebar-icons {
   border-style: hidden;
-  color: rgb(100,103,113);
+  color: rgb(100, 103, 113);
   padding: 1.75rem 3rem;
-
 }
+
 .top-div {
   padding-top: 4rem;
 }
-@media (max-width: 991px){
+
+@media (max-width: 991px) {
   .hero-logo {
     width: 30%;
-    padding-top:0;
+    padding-top: 0;
   }
   .hero-title {
     font-size: 3rem;
@@ -428,4 +442,17 @@ html {
     width: 57%;
   }
 }
+
+.btn.focus, .btn:focus {
+  box-shadow: none;
+}
+.btn-outline-secondary:hover {
+  background-color: #9368a6 !important;
+}
 /*#endregion /Ji's code */
+
+/*#region Riz's code */
+.fw-400 {
+  font-weight: 400;
+}
+/*#endregion /Riz's code*/

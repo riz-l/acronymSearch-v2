@@ -14,15 +14,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Bootstrap CSS -->
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
-    /> -->
+    />
 
     <!-- Bootstrap CSS (actual) -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" /> -->
 
     <!-- Style.css -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -31,7 +31,11 @@
     <link rel="stylesheet" href="assets/css/sidebar.css" />
 
     <!-- Ji's Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:500|Poppins:600&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:500|Poppins:600&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Favicon -->
     <link
       rel="shortcut icon"
@@ -60,19 +64,21 @@
   </head>
   <!--#endregion /Head-->
 
-  <body class="purple-fade">
+  <body class="container-white">
     <!--#region Navigation, top -->
     <nav
       class="navbar navbar-expand-lg navbar-light bg-first sticky-top navbar-div"
     >
-      <button class="btn nav-btn" id="menu-toggle">
+      <button class="btn nav-btn" id="menu-toggle" type="button">
         <i class="fas fa-bars fa-lg"></i>
       </button>
       <a href="index.html" class="ml-auto justify-content-end">
-        <!-- <span class="navbar-text text-uppercase">
-          Acronym Search</span> -->
-          <img src="assets/img/tdi-logo.png" alt="Team Defence Information Logo" class="img-fluid hero-logo" style="width: 30px"/>
-        </span>
+        <img
+          src="assets/img/tdi-logo.png"
+          alt="Team Defence Information Logo"
+          class="img-fluid hero-logo"
+          style="width: 30px"
+        />
       </a>
       <!--#region inactive -->
       <!--<button
@@ -104,7 +110,7 @@
         <div class="sidebar-heading text-uppercase">
           Navigation
         </div>
-        <div class="list-group list-group-flush sidebar-div">
+        <div class="list-group list-group-flush sidebar-div fw-400">
           <a
             href="index.html"
             class="list-group-item list-group-item-action bg-first sidebar-icons"
@@ -140,7 +146,7 @@
       <!--#region Page content -->
       <div id="page-content-wrapper">
         <!--#region Actual content -->
-        <div class="container-white container shadow-lg">
+        <div class="container">
           <div class="pt-8">
             <div class="row">
               <!--#region New Title -->
@@ -155,7 +161,6 @@
             </div>
           </div>
           <!--#region Search Bar -->
-
           <!-- region Ji's code -->
           <div class="row pt-8">
             <!-- <div class="col-lg-1 text-right logo-div">
@@ -173,7 +178,10 @@
                   placeholder="Search..."
                 />
                 <div class="input-group-append button-div">
-                  <button class="btn btn-outline-secondary search-icon" type="button">
+                  <button
+                    class="btn btn-outline-secondary search-icon"
+                    type="button"
+                  >
                     <i class="fa fa-search"></i>
                   </button>
                 </div>
@@ -181,7 +189,7 @@
             </div>
           </div>
 
-        <!-- region Ji's search result -->
+          <!-- region Ji's search result -->
           <div class="search-row-bg">
             <div class="row search-row">
               <div class="col-lg-2 col-md-2 col-sm-2 col-2 search-col-2">
@@ -191,18 +199,14 @@
                 <div class="card-body search-card-body">
                   <h3>Search Result</h3>
                   <p>What does it mean</p>
-
                 </div>
               </div>
             </div>
           </div>
+        </div>
           <!-- endregion /Ji's search result -->
           <!-- endregion /Ji's code -->
-
-
-
           <!--#endregion /Search Bar-->
-        </div>
         <!--#endregion /Actual content-->
       </div>
       <!--#endregion /Page content -->

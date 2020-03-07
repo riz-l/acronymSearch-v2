@@ -1,67 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--#region Head -->
+  <!--#region Head -->
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <!-- Internet Explorer functionality -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Internet Explorer functionality -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
-  <!-- Style.css-->
-  <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- Style.css-->
+    <link rel="stylesheet" href="../assets/css/style.css" />
 
-  <!-- Sidebar.css-->
-  <link rel="stylesheet" href="../assets/css/sidebar.css" />
+    <!-- Sidebar.css-->
+    <link rel="stylesheet" href="../assets/css/sidebar.css" />
 
-  <!-- Bootstrap Toggler CSS -->
-  <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css"
-    rel="stylesheet" />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="../assets/img/icons/tdi.ico"
+    />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/jpg" href="../assets/img/icons/tdi.ico" />
+    <!-- Manifest.json -->
+    <link rel="manifest" href="../manifest.json" />
 
-  <!-- Manifest.json -->
-  <link rel="manifest" href="../manifest.json">
+    <!-- Address Bar Theme Colour -->
+    <meta name="theme-color" content="#23222f" />
 
-  <!-- Address Bar Theme Colour -->
-  <meta name="theme-color" content="#23222f">
+    <!-- iOS Support -->
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-72x72.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-96x96.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-128x128.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-144x144.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-152x152.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-192x192.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-384x384.png" />
+    <link rel="apple-touch-icon" href="../assets/img/icons/tdi-512x512.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#23222f" />
 
-  <!-- iOS Support -->
-  <link rel="apple-touch-icon" href="../assets/img/icons/tdi-72x72.png">
-  <link rel="apple-touch-icon" href="../assets/img/icons/tdi-96x96.png">
-  <link rel="apple-touch-icon" href="../assets/img/icons/tdi-128x128.png">
-  <link rel="apple-touch-icon" href="../assets/img/icons/tdi-144x144.png">
-  <link rel="apple-touch-icon" href="../assets/img/icons/tdi-152x152.png">
-  <link rel="apple-touch-icon" href="../assets/img/icons/tdi-192x192.png">
-  <link rel="apple-touch-icon" href="../assets/img/icons/tdi-384x384.png">
-  <link rel="apple-touch-icon" href="../assets/img/icons/tdi-512x512.png">
-  <meta name="apple-mobile-web-app-status-bar" content="#23222f">
+    <title>Sponsors - Acronym Search</title>
+  </head>
+  <!--#endregion /Head-->
 
-  <title>Sponsors - Acronym Search</title>
-</head>
-<!--#endregion /Head-->
+  <body class="container-white">
+    <!--#region Navigation, top -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-first sticky-top navbar-div"
+    >
+      <button class="btn nav-btn" id="menu-toggle" type="button">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+      <a href="../index.html" class="ml-auto justify-content-end">
+        <span class="navbar-text text-uppercase ml-auto justify-content-end">
+          Acronym <span class="font-weight-bold">Search</span>
+        </span>
+      </a>
 
-<body class="purple-fade">
-  <!--#region Navigation, top -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-first sticky-top navbar-div">
-    <button class="btn nav-btn" id="menu-toggle">
-      <i class="fas fa-bars fa-lg"></i>
-    </button>
-    <a href="../index.html" class="ml-auto justify-content-end">
-      <span class="navbar-text text-uppercase ml-auto justify-content-end">
-        Acronym <span class="font-weight-bold">Search</span>
-      </span>
-    </a>
-
-    <!--#region inactive -->
-    <!--<button
+      <!--#region inactive -->
+      <!--<button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -80,36 +89,48 @@
               </li>
             </ul>
           </div>-->
-    <!--#endregion /inactive -->
-  </nav>
-  <!--#endregion /Navigation, top -->
+      <!--#endregion /inactive -->
+    </nav>
+    <!--#endregion /Navigation, top -->
 
-  <div class="d-flex" id="wrapper">
-    <!--#region Navigation, side -->
-    <div class="bg-first" id="sidebar-wrapper">
-      <div class="sidebar-heading text-uppercase">
-        Navigation
-      </div>
-      <div class="list-group list-group-flush sidebar-div">
-        <a href="../index.html" class="list-group-item list-group-item-action bg-first sidebar-icons">
-          <i class="fas fa-home mr-4"></i>
-          Home
-        </a>
-        <a href="about.html" class="list-group-item list-group-item-action bg-first sidebar-icons">
-          <i class="fas fa-info-circle mr-4"></i>
-          About
-        </a>
-        <a href="contact.html" class="list-group-item list-group-item-action bg-first sidebar-icons">
-          <i class="fas fa-envelope mr-4"></i>
-          Contact
-        </a>
-        <a href="sponsors.html" class="list-group-item list-group-item-action bg-first sidebar-icons">
-          <i class="fas fa-star-of-life mr-4"></i>
-          Sponsors
-        </a>
-      </div>
-      <!--#region Light/Dark Mode Switch -->
-      <!--<div class="row">
+    <div class="d-flex" id="wrapper">
+      <!--#region Navigation, side -->
+      <div class="bg-first" id="sidebar-wrapper">
+        <div class="sidebar-heading text-uppercase">
+          Navigation
+        </div>
+        <div class="list-group list-group-flush sidebar-div fw-400">
+          <a
+            href="../index.html"
+            class="list-group-item list-group-item-action bg-first sidebar-icons"
+          >
+            <i class="fas fa-home mr-4"></i>
+            Home
+          </a>
+          <a
+            href="about.html"
+            class="list-group-item list-group-item-action bg-first sidebar-icons"
+          >
+            <i class="fas fa-info-circle mr-4"></i>
+            About
+          </a>
+          <a
+            href="contact.html"
+            class="list-group-item list-group-item-action bg-first sidebar-icons"
+          >
+            <i class="fas fa-envelope mr-4"></i>
+            Contact
+          </a>
+          <a
+            href="sponsors.html"
+            class="list-group-item list-group-item-action bg-first sidebar-icons"
+          >
+            <i class="fas fa-star-of-life mr-4"></i>
+            Sponsors
+          </a>
+        </div>
+        <!--#region Light/Dark Mode Switch -->
+        <!--<div class="row">
           <div class="col-lg-12 text-center pt-20">
             <input
               type="checkbox"
@@ -123,109 +144,131 @@
             />
           </div>
         </div>-->
-      <!--#endregion /Light/Dark Mode Switch -->
-    </div>
-    <!--#endregion /Navigation, side -->
+        <!--#endregion /Light/Dark Mode Switch -->
+      </div>
+      <!--#endregion /Navigation, side -->
 
-    <!--#region Page content -->
-    <div id="page-content-wrapper">
-      <!--#region Actual content -->
-      <div class="container container-white shadow-lg">
-        <div class="row">
-          <div class="col-lg-12 mx-auto">
-            <div class="pt-8 text-center text-fluid">
-              <h1 class="second-title">Sponsors</h1>
-            </div>
-            <div class="pt-4">
-              <h2>DXC Technology</h2>
-              <p class="text-left std-text">
-                DXC Technology is the world's leading independent, end-to-end
-                IT services company, helping customers harness the power of
-                innovation to thrive on change.
-              </p>
-              <div class="text-center">
-                <img src="../assets/img/sponsors/dxc-black.png" alt="DXC Technology Logo"
-                  class="img-fluid sponsor-logo pt-2" />
+      <!--#region Page content -->
+      <div id="page-content-wrapper">
+        <!--#region Actual content -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <div class="pt-8 text-center text-fluid">
+                <h1 class="second-title">Sponsors</h1>
               </div>
-              <div class="pt-5 pb-5">
-                <a href="https://www.dxc.technology/" class="btn btn-sponsor btn-lg" target="_blank">
-                  Find out more
-                </a>
-              </div>
-              <hr />
-              <h2>Leonardo</h2>
-              <p class="text-left std-text">
-                Leonardo is a global high-technology company, is among the top
-                ten world players in Aerospace, Defence and Security and
-                Italy’s main industrial company. Organized into five business
-                divisions, Leonardo has a significant industrial presence in
-                Italy, the United Kingdom, Poland and the USA, where it also
-                operates through subsidiaries such as Leonardo DRS (defence
-                electronics), and joint ventures and partnerships: ATR, MBDA,
-                Telespazio, Thales Alenia Space and Avio. Leonardo competes in
-                the most important international markets by leveraging its
-                areas of technological and product leadership (Helicopters,
-                Aircraft, Aerostructures, Electronics, Cyber Security and
-                Space).
-              </p>
-              <div class="text-center">
-                <img src="../assets/img/sponsors/leonardo-logo.svg" alt="Leonardo Logo"
-                  class="img-fluid sponsor-logo pt-4" />
-              </div>
-              <div class="pt-5 pb-5">
-                <a href="https://www.leonardocompany.com/" class="btn btn-sponsor btn-lg" target="_blank">
-                  Find out more
-                </a>
+              <div class="pt-4">
+                <h2>DXC Technology</h2>
+                <p class="text-left std-text">
+                  DXC Technology is the world's leading independent, end-to-end
+                  IT services company, helping customers harness the power of
+                  innovation to thrive on change.
+                </p>
+                <div class="text-center">
+                  <img
+                    src="../assets/img/sponsors/dxc-black.png"
+                    alt="DXC Technology Logo"
+                    class="img-fluid sponsor-logo pt-2"
+                  />
+                </div>
+                <div class="pt-5 pb-5">
+                  <a
+                    href="https://www.dxc.technology/"
+                    class="btn btn-sponsor btn-lg"
+                    target="_blank"
+                  >
+                    Find out more
+                  </a>
+                </div>
+                <hr />
+                <h2>Leonardo</h2>
+                <p class="text-left std-text">
+                  Leonardo is a global high-technology company, is among the top
+                  ten world players in Aerospace, Defence and Security and
+                  Italy’s main industrial company. Organized into five business
+                  divisions, Leonardo has a significant industrial presence in
+                  Italy, the United Kingdom, Poland and the USA, where it also
+                  operates through subsidiaries such as Leonardo DRS (defence
+                  electronics), and joint ventures and partnerships: ATR, MBDA,
+                  Telespazio, Thales Alenia Space and Avio. Leonardo competes in
+                  the most important international markets by leveraging its
+                  areas of technological and product leadership (Helicopters,
+                  Aircraft, Aerostructures, Electronics, Cyber Security and
+                  Space).
+                </p>
+                <div class="text-center">
+                  <img
+                    src="../assets/img/sponsors/leonardo-logo.svg"
+                    alt="Leonardo Logo"
+                    class="img-fluid sponsor-logo pt-4"
+                  />
+                </div>
+                <div class="pt-5 pb-5">
+                  <a
+                    href="https://www.leonardocompany.com/"
+                    class="btn btn-sponsor btn-lg"
+                    target="_blank"
+                  >
+                    Find out more
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <!--#endregion /Actual content-->
       </div>
-      <!--#endregion /Actual content-->
+      <!--#endregion /Page content -->
     </div>
-    <!--#endregion /Page content -->
-  </div>
 
-  <!--#region Scripts -->
-  <!-- App.js -->
-  <script src="../assets/js/app.js"></script>
-  <!-- UI.js -->
-  <script src="../assets/js/ui.js"></script>
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-  </script>
-  <!-- Popper.js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <!-- Bootstrap.js-->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-  </script>
-  <!-- Bootstrap Toggler.js-->
-  <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/78b1d29e85.js" crossorigin="anonymous"></script>
-  <!--#region Navigation, function -->
-  <script>
-    $(function () {
-      $("#menu-toggle").click(function (e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
+    <!--#region Scripts -->
+    <!-- App.js -->
+    <script src="../assets/js/app.js"></script>
+    <!-- UI.js -->
+    <script src="../assets/js/ui.js"></script>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper.js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap.js-->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Toggler.js-->
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/78b1d29e85.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--#region Navigation, function -->
+    <script>
+      $(function() {
+        $("#menu-toggle").click(function(e) {
+          e.preventDefault();
+          $("#wrapper").toggleClass("toggled");
+        });
+
+        $(window).resize(function(e) {
+          if ($(window).width() <= 768) {
+            $("#wrapper").removeClass("toggled");
+          } else {
+            $("#wrapper").addClass("toggled");
+          }
+        });
       });
-
-      $(window).resize(function (e) {
-        if ($(window).width() <= 768) {
-          $("#wrapper").removeClass("toggled");
-        } else {
-          $("#wrapper").addClass("toggled");
-        }
-      });
-    });
-  </script>
-  <!--#endregion /Navigation, function-->
-  <!--#endregion / Scripts-->
-</body>
-
+    </script>
+    <!--#endregion /Navigation, function-->
+    <!--#endregion / Scripts-->
+  </body>
 </html>

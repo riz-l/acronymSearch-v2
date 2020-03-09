@@ -442,6 +442,17 @@ html {
     width: 57%;
   }
 }
+@media (max-width: 559px) {
+  .search-card-body h3 {
+    font-size: 1.15rem;
+  }
+  .search-card-body p {
+    font-size: 0.8rem;
+  }
+  .fa-align-left {
+    font-size: 1rem;
+  }
+}
 
 .btn.focus, .btn:focus {
   box-shadow: none;
